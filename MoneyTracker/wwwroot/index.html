@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NedBank - Money Tracker PoC</title>
+    <style>
+        input[type='submit'], button, [aria-label] {
+            cursor: pointer;
+        }
+
+        #spoiler {
+            display: none;
+        }
+
+        table {
+            font-family: Arial, sans-serif;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #006340;
+            color: white;
+        }
+
+        td {
+            border: 1px solid;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="strsim.html">Check string similar</a>
+    <select id="statementinput">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <input type="button" id="newtxns" value="Get More Statements" onclick="getNewStatementsSave()" />
+    <input type="button" id="btntest" value="Test stuff" onclick="testStuff()" />
+
+    <h3 id="counter">Users</h3>
+
+    <table>
+        <tr>
+            <th width="5%">UserDetailsId</th>
+            <th width="45%">UserName</th>
+            <th width="10%">IsSetupFinished</th>
+            <th width="10%">IsNeverRemindAboutSetup</th>
+            <th width="10%">IsNewToOnlineBanking</th>
+            <th width="10%">IsHavingTransAccounts</th>
+            <th width="10%">IsHavingTransactions</th>
+            <th></th>
+        </tr>
+        <tbody id="users"></tbody>
+    </table>
+
+    <p></p>
+
+    <div id="welcomepage" style="display: none">
+    </div>
+
+    <div id="statictext" style="display: none">
+    </div>
+
+    <input type="button" id="internetbanking" style="display: none" value="Online Banking" />
+    <input type="button" id="moneytrackersetup" style="display: none" value="Let's start" />
+
+    <div id="dynamictext" style="display: none">
+    </div>
+
+    <p></p>
+    <p></p>
+
+    <div id="transactions" style="display: none">
+    </div>
+
+    <table id="tbltxn" style="display: none">
+        <tr>
+            <th width="100px">StatementId</th>
+            <th width="200px">Account</th>
+            <th width="400px">Description</th>
+            <th width="100px">Debit</th>
+            <th width="200px">Amount</th>
+            <th width="100px">Action</th>
+        </tr>
+        <tbody id="tbbtxn"></tbody>
+    </table>
+
+    <p></p>
+
+    <div id="categories" style="display: none">
+    </div>
+
+    <table id="tblcat" style="display: none">
+        <tr>
+            <th width="100px">SBS Category Id</th>
+            <th width="200px">SBS Category Name</th>
+            <th width="400px">Description</th>
+            <th width="100px">IsDebit</th>
+            <th></th>
+        </tr>
+        <tbody id="tbbcat"></tbody>
+    </table>
+
+    <div id="recommend" style="display: none">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="moneyTracker.js"></script>
+
+</body>
+</html>
