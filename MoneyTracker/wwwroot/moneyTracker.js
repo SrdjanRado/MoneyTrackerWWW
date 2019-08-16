@@ -1,8 +1,8 @@
-﻿const uri = "MoneyTracker/v1";
-const uriuser = "MoneyTracker/v1/user";
-const uricat = "MoneyTracker/v1/Category";
-const uritxn = "MoneyTracker/v1/StatementEntry";
-//const uritxnsql = "MoneyTracker/v1/StatementEntrySQL";
+﻿const uri = "v1";
+const uriuser = "v1/user";
+const uricat = "v1/Category";
+const uritxn = "v1/StatementEntry";
+//const uritxnsql = "v1/StatementEntrySQL";
 
 let users = null;
 let trans = null;
