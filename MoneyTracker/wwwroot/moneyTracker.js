@@ -9,7 +9,7 @@ let trans = null;
 let sbscats = null;
 let newtxns = null;
 
-function getCount(data,elname,eltext) {
+function getCount(data, elname, eltext) {
     const el = $("#" + elname + "");
     //let name = "user";
     //if (data) {
@@ -22,7 +22,7 @@ function getCount(data,elname,eltext) {
     //}
     if (data) {
         el.text(eltext + " (" + data + ")");
-    } 
+    }
 
 }
 
@@ -40,7 +40,7 @@ function getUsers() {
 
             $(tBody).empty();
 
-            getCount(data.length,"counter","Users");
+            getCount(data.length, "counter", "Users");
 
             $.each(data, function (key, item) {
                 const tr = $("<tr></tr>")
@@ -161,7 +161,7 @@ function getTrasanctions() {
                     .append($("<td></td>").text(item.statementEntryId))
                     .append($("<td></td>").text(item.account))
                     .append($("<td></td>").text(item.description))
-                    .append($("<td></td>").append($("<input/>", { type: "checkbox", disabled: true, checked: item.debit})))
+                    .append($("<td></td>").append($("<input/>", { type: "checkbox", disabled: true, checked: item.debit })))
                     .append($("<td></td>").text(item.amount))
                     .append(
                         $("<td></td>").append(
@@ -169,7 +169,7 @@ function getTrasanctions() {
                                 recommentCategory(item);
                             })
                         )
-                        )
+                    )
                     ;
 
                 tr.appendTo(tBody);
@@ -196,7 +196,7 @@ function getCategories() {
                     .append($("<td></td>").text(item.categoryId))
                     .append($("<td></td>").text(item.categoryName))
                     .append($("<td></td>").text(item.categoryDescription))
-                    .append($("<td></td>").append($("<input/>", { type: "checkbox", disabled: true, checked: item.isDebit})))
+                    .append($("<td></td>").append($("<input/>", { type: "checkbox", disabled: true, checked: item.isDebit })))
                     ;
 
                 tr.appendTo(tBody);
@@ -240,13 +240,47 @@ function getNewStatementsSave() {
     });
 }
 
+
 function testStuff() {
+
+    var user =
+    {
+        userDetailId: 1,
+        cisNumber: "110001263706",
+        userName: "UPDATED Test user GoTo Money Tracker Welcome Page",
+        isSetupFinished: "Completed",
+        isNeverRemindAboutSetup: true, //false,
+        isNewToOnlineBanking: false,
+        isHavingTransAccounts: true,
+        isHavingTransactions: true
+    };
+
+    $.ajax({
+        type: "POST",
+        accepts: "application/json",
+        url: uriuser,
+        contentType: "application/json",
+        data: JSON.stringify(user),
+        error: function (jqXHR, textStatus, errorThrown) {
+            alert("Something went wrong!");
+        },
+        success: function (result) {
+            getUsers();
+        }
+    });
+
+
+}
+
+/*
+ * test Welcome
     $.ajax({
         type: "GET",
+        //url: uri + "/welcome/110001263706",
         url: uri + "/teststuff",
         cache: false,
         success: function (data) {
             newtxns = data;
         }
     });
-}
+*/
