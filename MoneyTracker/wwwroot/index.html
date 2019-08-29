@@ -51,6 +51,7 @@
         <tr>
             <th width="5%">UserDetailsId</th>
             <th width="45%">UserName</th>
+            <th width="45%">CIS Number</th>
             <th width="10%">IsSetupFinished</th>
             <th width="10%">IsNeverRemindAboutSetup</th>
             <th width="10%">IsNewToOnlineBanking</th>
@@ -76,6 +77,19 @@
     </div>
 
     <p></p>
+    <div id="dashboards" style="display: none">
+    </div>
+
+    <table id="tbldash" style="display: none">
+        <tr>
+            <th width="100px">Dashboard Id</th>
+            <th width="200px">Dashboard Name</th>
+            <th width="400px">Dashboard Type</th>
+            <th width="400px">User Name</th>
+            <th></th>
+        </tr>
+        <tbody id="tbbdash"></tbody>
+    </table>
     <p></p>
 
     <div id="transactions" style="display: none">
@@ -100,14 +114,19 @@
 
     <table id="tblcat" style="display: none">
         <tr>
-            <th width="100px">SBS Category Id</th>
-            <th width="200px">SBS Category Name</th>
+            <th width="100px">Category Id</th>
+            <th width="200px">Category Name</th>
             <th width="400px">Description</th>
+            <th width="400px">Category Type</th>
             <th width="100px">IsDebit</th>
             <th></th>
         </tr>
         <tbody id="tbbcat"></tbody>
     </table>
+
+    <p></p>
+
+
 
     <div id="recommend" style="display: none">
     </div>
