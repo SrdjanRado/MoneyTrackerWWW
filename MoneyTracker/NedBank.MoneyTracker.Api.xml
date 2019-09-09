@@ -62,30 +62,5 @@
             <param name="inUserDetail"></param>
             <returns></returns>
         </member>
-        <member name="P:SBS.MoneyTracker.Model.Pagination`1.PageNumber">
-            <summary>
-            The page number this page represents.
-            </summary>
-        </member>
-        <member name="P:SBS.MoneyTracker.Model.Pagination`1.PageSize">
-            <summary>
-            The size of this page.
-            </summary>
-        </member>
-        <member name="P:SBS.MoneyTracker.Model.Pagination`1.TotalNumberOfPages">
-            <summary>
-            The total number of pages available.
-            </summary>
-        </member>
-        <member name="P:SBS.MoneyTracker.Model.Pagination`1.TotalNumberOfRecords">
-            <summary>
-            The total number of records available.
-            </summary>
-        </member>
-        <member name="P:SBS.MoneyTracker.Model.Pagination`1.Results">
-            <summary>
-            The records this page represents.
-            </summary>
-        </member>
     </members>
 </doc>
