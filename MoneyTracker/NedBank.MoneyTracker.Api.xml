@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NedBank.MoneyTracker.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategories">
+            <summary>
+            GET a list of all the Categories
+            </summary>
+            <returns>List of Category</returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategory(System.Int32)">
+            <summary>
+            GET Category for given CategoryId
+            </summary>
+            <param name="inCategoryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategoryTypeList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GET the list of all the Category Types
+            </summary>
+            <param name="inCategoryTypeId"></param>
+            <param name="inUserDetailId"></param>
+            <param name="inStatementEntryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.CreateNewUserCategory(System.Int64,System.Int32,System.String)">
+            <summary>
+            Create new User Category
+            </summary>
+            <param name="userDetailId">UserDetailId for the user that is creating a new category</param>
+            <param name="inParentCategoryId">Parent category to link the User created category to</param>
+            <param name="inCategoryName">Category name</param>
+            <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.MoneyTrackerController.GetWelcome(System.String)">
+            <summary>
+            First API call for user entering Money Tracker entry point
+            </summary>
+            <param name="cisNumber"> This parameter cisNumber is sourced from Foundation part of the NedBank application</param>
+            <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.UserDetailController.GetUsers">
+            <summary>
+            TEMP - Get a list of all users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.UserDetailController.GetUser(System.Int64)">
+            <summary>
+            Get UserDetail by passing inUserDetailId
+            </summary>
+            <param name="inUserDetailId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.Controllers.UserDetailController.UpdateUser(SBS.MoneyTracker.Model.UserDetail)">
+            <summary>
+            Update UserDetail by passing all details
+            </summary>
+            <param name="inUserDetail"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SBS.MoneyTracker.Model.Pagination`1.PageNumber">
+            <summary>
+            The page number this page represents.
+            </summary>
+        </member>
+        <member name="P:SBS.MoneyTracker.Model.Pagination`1.PageSize">
+            <summary>
+            The size of this page.
+            </summary>
+        </member>
+        <member name="P:SBS.MoneyTracker.Model.Pagination`1.TotalNumberOfPages">
+            <summary>
+            The total number of pages available.
+            </summary>
+        </member>
+        <member name="P:SBS.MoneyTracker.Model.Pagination`1.TotalNumberOfRecords">
+            <summary>
+            The total number of records available.
+            </summary>
+        </member>
+        <member name="P:SBS.MoneyTracker.Model.Pagination`1.Results">
+            <summary>
+            The records this page represents.
+            </summary>
+        </member>
+    </members>
+</doc>

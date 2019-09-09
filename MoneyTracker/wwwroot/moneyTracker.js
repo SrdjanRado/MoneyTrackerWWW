@@ -287,7 +287,8 @@ function getNewStatementsSave() {
 function testStuff() {
     $.ajax({
         type: "GET",
-        url: uri + "/teststuff",
+        //url: uri + "/teststuff",
+        url: uri + "/welcome/191018431808",
         cache: false,
         success: function (data) {
             newtxns = data;
