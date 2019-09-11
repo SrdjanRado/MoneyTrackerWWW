@@ -17,13 +17,10 @@
             <param name="inCategoryId"></param>
             <returns></returns>
         </member>
-        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategoryTypeList(System.Int32,System.Int32,System.Int32)">
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategoryTypeList">
             <summary>
             GET the list of all the Category Types
             </summary>
-            <param name="inCategoryTypeId"></param>
-            <param name="inUserDetailId"></param>
-            <param name="inStatementEntryId"></param>
             <returns></returns>
         </member>
         <member name="M:SBS.MoneyTracker.Controllers.CategoryController.CreateNewUserCategory(System.Int64,System.Int32,System.String)">
@@ -61,6 +58,15 @@
             </summary>
             <param name="inUserDetail"></param>
             <returns></returns>
+        </member>
+        <member name="M:SBS.MoneyTracker.DAL.Repositories.MoneyTrackerUserRepository.APIGetUserAccounts(System.Int64)">
+            <summary>
+            Call NedBank account API for the give user
+            CRUD UserAccount
+            Return UserAccounts
+            </summary>
+            <param name="userDetailId">SrdjanR::Refactor::1-Remove static URL; 2-Better CRUD::Given user</param>
+            <returns>List of UserAccount</returns>
         </member>
     </members>
 </doc>
