@@ -1,0 +1,30 @@
+[
+  {
+    "UserAccountId":1,
+    "UserDashboardId":1
+  },
+  {
+    "UserAccountId":5,
+    "UserDashboardId":1
+  },
+  {
+    "UserAccountId":2,
+    "UserDashboardId":2
+  },
+  {
+    "UserAccountId":6,
+    "UserDashboardId":2
+  },
+  {
+    "UserAccountId":3,
+    "UserDashboardId":3
+  },
+  {
+    "UserAccountId":4,
+    "UserDashboardId":4
+  },
+  {
+    "UserAccountId":1,
+    "UserDashboardId":5
+  }
+]

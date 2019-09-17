@@ -1,0 +1,27 @@
+[
+  {
+    "UserDashboardName": "Test User Dash",
+    "DashboardTypeId": 1,
+    "UserDetailId": 1
+  },
+  {
+    "UserDashboardName": "Rita's Personal Money Tracker Board",
+    "DashboardTypeId": 2,
+    "UserDetailId": 3
+  },
+  {
+    "UserDashboardName": "Vera's Bread & Buns Budget Board",
+    "DashboardTypeId": 2,
+    "UserDetailId": 6
+  },
+  {
+    "UserDashboardName": "Reed Personal Money",
+    "DashboardTypeId": 1,
+    "UserDetailId": 9
+  },
+  {
+    "UserDashboardName": "Test User Dash 2",
+    "DashboardTypeId": 2,
+    "UserDetailId": 1
+  },
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "UserName": "Test user GoTo Money Tracker Welcome Page",
+    "CisNumber": "191018431808",
+    "IsSetupFinished": "Completed",
+    "RemindAboutSetup": false,
+    "NewToOnline": false,
+    "HasTransactions": true
+  },
+  {
+    "UserName": "Test user GoTo Onboarding",
+    "CisNumber": "191018431809",
+    "IsSetupFinished": "NotCompleted",
+    "RemindAboutSetup": true,
+    "NewToOnline": false,
+    "HasTransactions": true
+  },
+  {
+    "UserName": "Test user GoTo Continue Onboarding",
+    "CisNumber": "191018431810",
+    "IsSetupFinished": "PartiallyCompleted",
+    "RemindAboutSetup": false,
+    "NewToOnline": false,
+    "HasTransactions": true
+  },
+  {
+    "UserName": "Test user GoTo BackTo OnlineBanking NeverRemind",
+    "CisNumber": "191018431811",
+    "IsSetupFinished": "NotCompleted",
+    "RemindAboutSetup": true,
+    "NewToOnline": false,
+    "HasTransactions": true
+  },
+  {
+    "UserName": "Jewel Bass",
+    "CisNumber": "191018431812",
+    "IsSetupFinished": "Completed",
+    "RemindAboutSetup": false,
+    "NewToOnline": true,
+    "HasTransactions": false
+  },
+  {
+    "UserName": "Vera Bond",
+    "CisNumber": "191018431813",
+    "IsSetupFinished": "PartiallyCompleted",
+    "RemindAboutSetup": true,
+    "NewToOnline": true,
+    "HasTransactions": true
+  },
+  {
+    "UserName": "Willie Gibson",
+    "CisNumber": "191018431814",
+    "IsSetupFinished": "PartiallyCompleted",
+    "RemindAboutSetup": true,
+    "NewToOnline": true,
+    "HasTransactions": false
+  },
+  {
+    "UserName": "Juana Richard",
+    "CisNumber": "191018431815",
+    "IsSetupFinished": "Completed",
+    "RemindAboutSetup": false,
+    "NewToOnline": true,
+    "HasTransactions": false
+  },
+  {
+    "UserName": "Reed Marquez",
+    "CisNumber": "191018431816",
+    "IsSetupFinished": "PartiallyCompleted",
+    "RemindAboutSetup": true,
+    "NewToOnline": true,
+    "HasTransactions": true
+  },
+  {
+    "UserName": "Allen Patel",
+    "CisNumber": "191018431817",
+    "IsSetupFinished": "PartiallyCompleted",
+    "RemindAboutSetup": false,
+    "NewToOnline": true,
+    "HasTransactions": false
+  }
+]

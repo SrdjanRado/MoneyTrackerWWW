@@ -4,32 +4,25 @@
         <name>NedBank.MoneyTracker.Api</name>
     </assembly>
     <members>
-        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategories">
-            <summary>
-            GET a list of all the Categories
-            </summary>
-            <returns>List of Category</returns>
-        </member>
         <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategory(System.Int32)">
             <summary>
             GET Category for given CategoryId
             </summary>
-            <param name="inCategoryId"></param>
+            <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategoryTypeList">
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.GetCategoryTypes">
             <summary>
             GET the list of all the Category Types
             </summary>
             <returns></returns>
         </member>
-        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.CreateNewUserCategory(System.Int64,System.Int32,System.String)">
+        <member name="M:SBS.MoneyTracker.Controllers.CategoryController.CreateNewUserCategory(System.Int64,SBS.MoneyTracker.DAL.DTO.CreateCategoryDto)">
             <summary>
             Create new User Category
             </summary>
-            <param name="userDetailId">UserDetailId for the user that is creating a new category</param>
-            <param name="inParentCategoryId">Parent category to link the User created category to</param>
-            <param name="inCategoryName">Category name</param>
+            <param name="userId">UserDetailId for the user that is creating a new category</param>
+            <param name="createCategory">Payload to create new custom category</param>
             <returns></returns>
         </member>
         <member name="M:SBS.MoneyTracker.Controllers.MoneyTrackerController.GetWelcome(System.String)">

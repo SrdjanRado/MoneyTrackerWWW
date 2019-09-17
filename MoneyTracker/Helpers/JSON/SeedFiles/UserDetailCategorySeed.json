@@ -1,0 +1,31 @@
+[
+  {
+    "CategoryId":2,
+    "UserDetailId":1
+  },
+  {
+    "CategoryId":2,
+    "UserDetailId":2
+  },
+  {
+    "CategoryId":2,
+    "UserDetailId":5
+  },
+  {
+    "CategoryId":4,
+    "UserDetailId":8
+  },
+  {
+    "CategoryId":4,
+    "UserDetailId":6
+  },
+  {
+    "CategoryId":4,
+    "UserDetailId":6
+  },
+  {
+    "CategoryId":4,
+    "UserDetailId":6
+  }
+
+]

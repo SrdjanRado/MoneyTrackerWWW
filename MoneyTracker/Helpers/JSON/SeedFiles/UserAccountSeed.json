@@ -1,0 +1,68 @@
+[
+  {
+    "UserAccountNumber": "1066898235",
+    "ContainerName": "Bank",
+    "AccountHolderName": "Marilyn Savings",
+    "AccountName": "Savings Account",
+    "AccountType": "SA",
+    "AccountStatusCode": 0,
+    "ProductType": 10,
+    "AvailableBalance": 123.00,
+    "UserDetailId": 1
+  },
+  {
+    "UserAccountNumber": "1066898235",
+    "ContainerName": "Bank",
+    "AccountHolderName": "Rita Savings",
+    "AccountName": "Savings Account",
+    "AccountType": "SA",
+    "AccountStatusCode": 0,
+    "ProductType": 10,
+    "AvailableBalance": 124.00,
+    "UserDetailId": 2
+  },
+  {
+    "UserAccountNumber": "1602334536",
+    "ContainerName": "Bank",
+    "AccountHolderName": "Sabrina Savings",
+    "AccountName": "Savings Account",
+    "AccountType": "SA",
+    "AccountStatusCode": 0,
+    "ProductType": 10,
+    "AvailableBalance": 125.00,
+    "UserDetailId": 3
+  },
+  {
+    "UserAccountNumber": "1633281132",
+    "ContainerName": "Bank",
+    "AccountHolderName": "Pamela Savings",
+    "AccountName": "Savings Account",
+    "AccountType": "SA",
+    "AccountStatusCode": 0,
+    "ProductType": 10,
+    "AvailableBalance": 126.00,
+    "UserDetailId": 4
+  },
+  {
+    "UserAccountNumber": "4922130000784779",
+    "ContainerName": "Bank",
+    "AccountHolderName": "Marilyn Card",
+    "AccountName": "Card Account",
+    "AccountType": "CC",
+    "AccountStatusCode": 0,
+    "ProductType": 10,
+    "AvailableBalance": 127.00,
+    "UserDetailId": 1
+  },
+  {
+    "UserAccountNumber": "5898460761682640",
+    "ContainerName": "Bank",
+    "AccountHolderName": "Rita Card",
+    "AccountName": "Card Account",
+    "AccountType": "CC",
+    "AccountStatusCode": 0,
+    "ProductType": 10,
+    "AvailableBalance": 128.00,
+    "UserDetailId": 2
+  }
+]
