@@ -45,7 +45,7 @@
             <param name="inUserDetailId"></param>
             <returns></returns>
         </member>
-        <member name="M:SBS.MoneyTracker.Controllers.UserDetailController.UpdateUser(SBS.MoneyTracker.Model.UserDetail)">
+        <member name="M:SBS.MoneyTracker.Controllers.UserDetailController.UpdateUser(SBS.MoneyTracker.Model.UserDetails)">
             <summary>
             Update UserDetail by passing all details
             </summary>

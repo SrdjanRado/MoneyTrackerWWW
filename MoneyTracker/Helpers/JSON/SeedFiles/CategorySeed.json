@@ -4,139 +4,139 @@
     "CategoryDescription": "Grocery",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Fee",
     "CategoryDescription": "Fee",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 2
+    "DashboardTypeId": 2
   },
   {
     "CategoryName": "Salary",
     "CategoryDescription": "Salary",
     "IsDebit": 0,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Income",
     "CategoryDescription": "Income",
     "IsDebit": 0,
     "IsCustom": false,
-    "CategoryTypeId": 2
+    "DashboardTypeId": 2
   },
   {
     "CategoryName": "Electricity",
     "CategoryDescription": "Electricity",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Loan Repayment",
     "CategoryDescription": "Loan Repayment",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 2
+    "DashboardTypeId": 2
   },
   {
     "CategoryName": "Loan",
     "CategoryDescription": "Loan",
     "IsDebit": 0,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "House Expense",
     "CategoryDescription": "House Expense",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Entertainment",
     "CategoryDescription": "Entertainment",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 2
+    "DashboardTypeId": 2
   },
   {
     "CategoryName": "PnP Groceries",
     "CategoryDescription": "PnP Groceries",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Karuna Side Hustle",
     "CategoryDescription": "Karuna Side Hustle",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Prepaid Elec",
     "CategoryDescription": "Prepaid Elec",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "House Rent",
     "CategoryDescription": "House Rent",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Home Loan Repay",
     "CategoryDescription": "Home Loan Repay",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Personal Loan Repay",
     "CategoryDescription": "Personal Loan Repay",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Loan Shark Installment",
     "CategoryDescription": "Loan Shark Installment",
     "IsDebit": 1,
     "IsCustom": true,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Office Supplies",
     "CategoryDescription": "Office Supplies",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Children Petty Cash",
     "CategoryDescription": "Children Petty Cash",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Cleaning Equipment",
     "CategoryDescription": "Cleaning Equipment",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   },
   {
     "CategoryName": "Overhead Expenses",
     "CategoryDescription": "Overhead Expenses",
     "IsDebit": 1,
     "IsCustom": false,
-    "CategoryTypeId": 1
+    "DashboardTypeId": 1
   }
 ]

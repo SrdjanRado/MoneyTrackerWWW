@@ -7,7 +7,6 @@
     "AccountType": "SA",
     "AccountStatusCode": 0,
     "ProductType": 10,
-    "AvailableBalance": 123.00,
     "UserDetailId": 1
   },
   {
@@ -18,7 +17,6 @@
     "AccountType": "SA",
     "AccountStatusCode": 0,
     "ProductType": 10,
-    "AvailableBalance": 124.00,
     "UserDetailId": 2
   },
   {
@@ -29,7 +27,6 @@
     "AccountType": "SA",
     "AccountStatusCode": 0,
     "ProductType": 10,
-    "AvailableBalance": 125.00,
     "UserDetailId": 3
   },
   {
@@ -40,7 +37,6 @@
     "AccountType": "SA",
     "AccountStatusCode": 0,
     "ProductType": 10,
-    "AvailableBalance": 126.00,
     "UserDetailId": 4
   },
   {
@@ -51,7 +47,6 @@
     "AccountType": "CC",
     "AccountStatusCode": 0,
     "ProductType": 10,
-    "AvailableBalance": 127.00,
     "UserDetailId": 1
   },
   {
@@ -62,7 +57,6 @@
     "AccountType": "CC",
     "AccountStatusCode": 0,
     "ProductType": 10,
-    "AvailableBalance": 128.00,
     "UserDetailId": 2
   }
 ]
